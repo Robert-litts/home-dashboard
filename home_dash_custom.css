@@ -1,0 +1,30 @@
+.MMM-homeassistant-sensors {
+background-color:rgba(0,0,0,0.2);
+ /*border-radius:8px;
+  padding:8px;
+*/
+ }
+
+.MMM-MonthlyCalendar  {
+
+	max-width: 1000px;
+background-color:rgba(0,0,0,0.2);
+  border-radius:8px;
+  padding:8px;
+}
+
+
+.module.calendar {
+background-color:rgba(0,0,0,0.2);
+  border-radius:8px;
+  padding:8px;
+}
+
+/* 
+.module.clock {
+background-color:rgba(0,0,0,0.2);
+  border-radius:8px;
+  padding:8px;
+
+}
+*/
