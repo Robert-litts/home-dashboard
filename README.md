@@ -24,17 +24,41 @@ This project contains the congiruation files needed to take automatically take a
     3. I recommend that you spend $4-5 more for a [case/fan/power supply kit](https://www.amazon.com/Miuzei-Raspberry-Heatsinks-Supply-Compatible/dp/B07BTHNW9W/ref=pd_bxgy_img_sccl_2/140-1220211-7057031?pd_rd_w=yHsPN&content-id=amzn1.sym.43d28dfc-aa4f-4ef6-b591-5ab7095e137f&pf_rd_p=43d28dfc-aa4f-4ef6-b591-5ab7095e137f&pf_rd_r=77PRN4345TAQBB92NSYY&pd_rd_wg=HIgEW&pd_rd_r=a928bf38-6300-4a4a-a4b2-0d26a1f7043f&pd_rd_i=B07BTHNW9W&psc=1)
 * [Micro SD Card](https://www.amazon.com/SanDisk-Extreme-microSDXC-Memory-Adapter/dp/B09X7C7LL1/ref=sr_1_8?crid=1MAY66DVIZ0FQ&keywords=micro+sd+card&qid=1698513031&s=electronics&sprefix=micro+sd+card%2Celectronics%2C85&sr=1-8) or [this 2 pack](https://www.amazon.com/SanDisk-2-Pack-microSDHC-Memory-2x32GB/dp/B08J4HJ98L/ref=sr_1_5?crid=6UVN6B6DWQJW&keywords=micro%2Bsd%2Bcard&qid=1698512146&s=electronics&sprefix=micro%2Bsd%2Bcard%2Celectronics%2C67&sr=1-5&th=1)
 * [USB Keyboard](https://www.amazon.com/Rii-Ultra-Slim-Compact-Keyboard-Windows/dp/B0BXNGJ2LD/ref=sr_1_5?crid=37IONU9JZ79R3&keywords=usb%2Bkeyboard&qid=1698513584&s=electronics&sprefix=usb%2Bkeyboard%2Celectronics%2C76&sr=1-5&th=1) for initial setup, but I assume most people have a USB keyboard already somewhere in their house.
+* [Balena Etcher](https://etcher.balena.io/) software, used to flash the OS onto your SD Card
+* MicroSD Card Reader
 
 ## Total Price
-* Orange Pi Zero 2 - $57.98
+* **Orange Pi Zero 2 - $57.98**
   - $47.99 board + case + power supply
   - $10.99 Micro SD Card
-* Orange Pi 3 LTS - $70.99
+* **Orange Pi 3 LTS - $70.99**
   - $60 board + case + power supply
   - $10.99 Micro SD Card
-* Raspberry Pi 3B+ - $71.98
+* **Raspberry Pi 3B+ - $71.98**
   * $47 - Board
   * $13.99 - Case + Fan + power supply
   * $10.99 - MicroSD Card
 
-## 
+## Instructions
+
+### Download the appropriate image
+* Orange Pi Zero 2 -
+* Orange Pi 3 LTS - 
+* Raspberry Pi 3B+ - [Armbian](https://redirect.armbian.com/rpi4b/Jammy_current_minimal) or [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/)
+
+### Flash the OS onto your SD card
+* Insert your MicroSD card into your computer
+* Open Balena Etcher and select the image from the previous step
+* Click "Select Drive" and select your SD card
+* Click "Flash" and wait for the program to complete writing the image.
+* Remove the SD card from the computer
+
+### Boot your Single Board Computer
+* Insert the MicroSD card into your Pi
+* Connect an HDMI cable from the Pi to a monitor
+* Plug in a USB keyboard
+* OPTIONAL: Connect an ethernet cable to your router or switch to get internet access (necessary for updates and downloading packages)
+* Plug in the power cord & your device should boot
+
+### Configure Initial OS Settings
+* Follow on screen prompts to create a root password, initial user, and set timezone/language
