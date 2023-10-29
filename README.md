@@ -62,3 +62,6 @@ This project contains the congiruation files needed to take automatically take a
 
 ### Configure Initial OS Settings
 * Follow on screen prompts to create a root password, initial user, and set timezone/language
+
+### Initial Software Setup
+* 
