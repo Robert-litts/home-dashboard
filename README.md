@@ -64,4 +64,15 @@ This project contains the congiruation files needed to take automatically take a
 * Follow on screen prompts to create a root password, initial user, and set timezone/language
 
 ### Initial Software Setup
-* 
+
+* Run the following to complete initial package installations
+* This will install a desktop environment, MagicMirror, and configure Light DM to auto-login
+```
+curl https://raw.githubusercontent.com/Robert-litts/home-dashboard/main/initial_setup.sh | sudo bash
+```
+* This script does pipe directly into sudo bash, so if you'd like to examine the file's contents, use the following
+
+```
+wget https://raw.githubusercontent.com/Robert-litts/home-dashboard/main/initial_setup.sh
+less -N initial_setup.sh
+```
