@@ -1,4 +1,4 @@
-o#!/bin/bash
+#!/bin/bash
 
 user=$(whoami) #Get the current user
 
