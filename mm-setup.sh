@@ -1,6 +1,6 @@
 #!/bin/bash
 
-user="rehoboam"
+user=$(whoami) #Get the current user
 
 #Prevent screen from turning off
 xset -dpms #disable Display Power Mgmnt Signaling
