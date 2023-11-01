@@ -40,7 +40,7 @@ git clone https://github.com/Jopyth/MMM-Remote-Control.git && cd "$(basename "$_
 npm install
 
 cd /home/$user/MagicMirror/config
-curl -s https://gitea.litts.me/robbie/magicmirror/raw/branch/master/orangepi/config.js -o config.js
+curl -s https://raw.githubusercontent.com/Robert-litts/home-dashboard/main/config.js -o config.js
 
 cd /home/$user
 curl -s https://raw.githubusercontent.com/Robert-litts/home-dashboard/main/pm2.sh -o pm2.sh
