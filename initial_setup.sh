@@ -40,6 +40,7 @@ apt install -y nodejs
 apt install -y npm
 npm install -g pm2
 
+echo "Setting Up Magic Mirror"
 su -c "curl https://raw.githubusercontent.com/Robert-litts/home-dashboard/main/mm-setup.sh | bash" $user
 #su - $user -c 'https://gitea.litts.me/robbie/magicmirror/raw/branch/master/orangepi/mm-setup.sh | set -s pipefail; bash'
 
