@@ -1,6 +1,6 @@
 #!/bin/bash
 
-user=$(whoami) #Get the current user
+#user=$(whoami) #Get the current user
 
 echo "Disabling Screensaver"
 #Prevent screen from turning off
