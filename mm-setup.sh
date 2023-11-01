@@ -42,6 +42,8 @@ npm install
 cd /home/$user/MagicMirror/config
 curl -s https://raw.githubusercontent.com/Robert-litts/home-dashboard/main/config.js -o config.js
 
-cd /home/$user
-curl -s https://raw.githubusercontent.com/Robert-litts/home-dashboard/main/pm2.sh -o pm2.sh
-chmod +x pm2.sh
+#cd /home/$user/MagicMirror/css
+#curl -s https://raw.githubusercontent.com/Robert-litts/home-dashboard/main/home_dash_custom.css -o custom.css
+
+cd/home/$user
+curl https://raw.githubusercontent.com/Robert-litts/home-dashboard/main/pm2.sh | bash
