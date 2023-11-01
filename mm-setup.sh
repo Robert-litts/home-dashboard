@@ -43,5 +43,5 @@ cd /home/$user/MagicMirror/config
 curl -s https://gitea.litts.me/robbie/magicmirror/raw/branch/master/orangepi/config.js -o config.js
 
 cd /home/$user
-curl -s https://gitea.litts.me/robbie/magicmirror/raw/branch/master/orangepi/mm.sh -o mm.sh
-chmod +x mm.sh
+curl -s https://raw.githubusercontent.com/Robert-litts/home-dashboard/main/pm2.sh -o pm2.sh
+chmod +x pm2.sh
