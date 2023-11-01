@@ -23,7 +23,7 @@ sudo apt -y --ignore-missing --no-install-recommends install "${pkgs[@]}"
 
 echo "Updating LightDM Config"
 mv /etc/lightdm/lightdm.conf /etc/lightdm/lightdm.conf.old
-wget https://gitea.litts.me/robbie/magicmirror/raw/branch/master/orangepi/lightdm.conf -P /etc/lightdm
+wget https://raw.githubusercontent.com/Robert-litts/home-dashboard/main/lightdm.conf -P /etc/lightdm
 
 #Install tailscale
 curl -fsSL https://tailscale.com/install.sh | sh
