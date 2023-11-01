@@ -1,6 +1,6 @@
 #!/bin/bash
 
-user=$(whoami) ##get the current user
+export user=$(whoami) ##get the current user
 
 if [ "$EUID" -ne 0 ]
   then echo "Please run as root"
