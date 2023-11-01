@@ -4,6 +4,7 @@ user=$(whoami) #Get the current user
 
 echo "Disabling Screensaver"
 #Prevent screen from turning off
+export DISPLAY=:0
 xset -dpms #disable Display Power Mgmnt Signaling
 xset s off #Disable screensaver from starting
 #xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/dpms-enabled -s false #Disable power management settings for XFCE
