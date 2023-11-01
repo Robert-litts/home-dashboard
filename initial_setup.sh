@@ -1,6 +1,6 @@
 #!/bin/bash
 
-user="rehoboam" ##ensure this matches the user that you created when you first installed the OS
+user=$(whoami) ##get the current user
 
 if [ "$EUID" -ne 0 ]
   then echo "Please run as root"
