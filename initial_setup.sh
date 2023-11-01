@@ -22,8 +22,8 @@ pkgs=(xfce4 xfce4-goodies xfce4-terminal light-locker desktop-base xorg xserver-
 sudo apt -y --ignore-missing --no-install-recommends install "${pkgs[@]}"
 
 echo "Updating LightDM Config"
-mv /etc/lightdm/lightdm.conf /etc/lightdm/lightdm.conf.old
-wget https://raw.githubusercontent.com/Robert-litts/home-dashboard/main/lightdm.conf -P /etc/lightdm
+sudo mv /etc/lightdm/lightdm.conf /etc/lightdm/lightdm.conf.old
+sudo wget https://raw.githubusercontent.com/Robert-litts/home-dashboard/main/lightdm.conf -P /etc/lightdm
 
 #Install tailscale
 curl -fsSL https://tailscale.com/install.sh | sh
@@ -40,8 +40,8 @@ apt install -y nodejs
 apt install -y npm
 npm install -g pm2
 
-echo "Setting Up Magic Mirror"
-su -c "curl https://raw.githubusercontent.com/Robert-litts/home-dashboard/main/mm-setup.sh | bash" $user
+#echo "Setting Up Magic Mirror"
+#su -c "curl https://raw.githubusercontent.com/Robert-litts/home-dashboard/main/mm-setup.sh | bash" $user
 #su - $user -c 'https://gitea.litts.me/robbie/magicmirror/raw/branch/master/orangepi/mm-setup.sh | set -s pipefail; bash'
 
 
