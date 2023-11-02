@@ -1,6 +1,7 @@
 #!/bin/bash
 
-export user=$(whoami) ##get the current user
+export user=$SUDO_USER ##get the current user
+echo "Current User is:" $user 
 
 if [ "$EUID" -ne 0 ]
   then echo "Please run as root"
