@@ -234,20 +234,6 @@ let config = {
 },
 
 
-  /*{
-    module: "MMM-OpenWeatherForecast",
-    position: "top_right",
-    header: "Forecast",
-    config: {
-      apikey: "a1b2c3d4e5f6g7h8j9k0", //only string here
-      latitude: 51.490230,            //number works here
-      longitude: "-0.258810"          //so does a string
-    }
-  },
-*/
-
-
-
 
 
         ]
