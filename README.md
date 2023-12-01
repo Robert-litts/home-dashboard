@@ -12,7 +12,7 @@ This project contains the congiruation files needed to take automatically take a
 * TV or Monitor for display (with at least one available HDMI port)
   - This project assumes 1920x1080 resolution.
   - Larger or smaller resolutions (not screen sizes) may require readjusting the sizes of certain modules using custom CSS.
-  - [This Roku 3 Series is an inexpensive option]([https://www.bestbuy.com/site/tcl-32-class-3-series-full-hd-led-smart-roku-tv/6508875.p?skuId=6508875](https://www.tcl.com/us/en/products/home-theater/3-series/tcl-32-class-3-series-fhd-led-roku-smart-tv-32s327)) or [this 27" LG Monitor](https://www.bestbuy.com/site/lg-27-ips-led-fhd-75hz-amd-freesync-monitor-hdmi-displayport-black/6505040.p?skuId=6505040)
+  - [This Roku 3 Series is an inexpensive option](https://www.tcl.com/us/en/products/home-theater/3-series/tcl-32-class-3-series-fhd-led-roku-smart-tv-32s327) or [this 27" LG Monitor](https://www.bestbuy.com/site/lg-27-ips-led-fhd-75hz-amd-freesync-monitor-hdmi-displayport-black/6505040.p?skuId=6505040)
 * A single board computer, preferences + prices listed below in order of increasing cost and compatability
   - [Orange Pi Zero 2](https://www.amazon.com/Orange-Pi-Allwinner-Open-Source-Android10/dp/B0B973214J)
     1. At $47.99, this kit is the cheapest you will find a single board computer compatible with this project.
