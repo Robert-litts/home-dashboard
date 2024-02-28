@@ -1,7 +1,7 @@
 ![Dashboard](MM_calendar_time_weather_notes_sports.png)
 
 # Custom Home Dashboard
-This project contains the congiruation files needed to take automatically take an inexpensive single board computer such as an Orange or Raspberry Pi and turn it into a visually appealing home dashboard. This is built using [Magic Mirror](https://github.com/MichMich/MagicMirror) and contains the following open source libraries:
+This project contains the configuration files needed to automatically take an inexpensive single board computer such as an Orange or Raspberry Pi and turn it into a visually appealing home dashboard. This is built using [Magic Mirror](https://github.com/MichMich/MagicMirror) and contains the following open source libraries:
 * [MMM-MonthlyCalendar](https://github.com/kolbyjack/MMM-MonthlyCalendar)
 * [MMM-Wallpaper](https://github.com/kolbyjack/MMM-Wallpaper)
 * [MMM-Remote Control](https://github.com/Jopyth/MMM-Remote-Control)
